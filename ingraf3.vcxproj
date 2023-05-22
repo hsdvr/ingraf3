@@ -168,6 +168,7 @@
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="technique.h" />
     <ClInclude Include="texture.h" />
+    <ClInclude Include="util.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
