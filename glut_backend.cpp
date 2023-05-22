@@ -47,12 +47,13 @@ bool GLUTBackendCreateWindow(unsigned int Width, unsigned int Height, unsigned i
         snprintf(ModeString, sizeof(ModeString), "%dx%d@%d", Width, Height, bpp);
         glutGameModeString(ModeString);
         glutEnterGameMode();
+        
     }
     else {
         glutInitWindowSize(Width, Height);
         glutCreateWindow(pTitle);
     }
-
+  
     GLenum res = glewInit();
     if (res != GLEW_OK) {
         fprintf(stderr, "Error: '%s'\n", glewGetErrorString(res));
