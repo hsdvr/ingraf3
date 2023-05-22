@@ -149,17 +149,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="camera.cpp" />
+    <ClCompile Include="glut_backend.cpp" />
     <ClCompile Include="ingraf3.cpp" />
+    <ClCompile Include="lighting_technique.cpp" />
     <ClCompile Include="math_3d.cpp" />
     <ClCompile Include="pipeline.cpp" />
     <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="technique.cpp" />
     <ClCompile Include="texturecpp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="callbacks.h" />
     <ClInclude Include="camera.h" />
+    <ClInclude Include="glut_backend.h" />
+    <ClInclude Include="lighting_technique.h" />
     <ClInclude Include="math_3d.h" />
     <ClInclude Include="pipeline.h" />
     <ClInclude Include="stb_image.h" />
+    <ClInclude Include="technique.h" />
     <ClInclude Include="texture.h" />
   </ItemGroup>
   <ItemGroup>
